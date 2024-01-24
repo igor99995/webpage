@@ -176,4 +176,18 @@ button {
   padding: 9px 32px;
 }
 
+/*----------------
+    Footer styles 
+  ----------------
+*/
 
+footer {
+  width: 100%;
+  padding: 20px;
+  background-color: #1f2937;
+}
+
+footer p {
+  text-align: center;
+  color: #e5e7eb;
+}
