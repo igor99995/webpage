@@ -1,3 +1,6 @@
+/*----------------
+    Global styles 
+  ----------------*/
 * {
   box-sizing: border-box;
 }
@@ -30,6 +33,10 @@ button {
   font-weight: bold;
   font-size: 24px;
 }
+
+/*----------------
+    Part 1 styles 
+  ----------------*/
 
 .part1 {
   background-color: #1f2937;
@@ -87,4 +94,35 @@ button {
   flex-shrink: 1;
 }
 
+/*----------------
+    Part 2 styles 
+  ----------------*/
 
+.part2 {
+  padding: 40px 250px; 
+}
+
+.part2 h2 {
+  font-size: 36px;
+  font-weight: 800;
+  text-align: center;
+  margin-top: 0;
+}
+
+.image-cards {
+  display: flex;
+  gap: 3rem;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.card {
+  flex-basis: 200px;
+}
+
+.card img {
+  width: 200px;
+  height: 136px;
+  border: 4px solid rgb(0, 78, 129);
+  border-radius: 10%;
+}
