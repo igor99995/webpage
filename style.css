@@ -80,6 +80,7 @@ button {
 .container {
   display: flex;
   gap: 1rem;
+  margin: 100px 0;
 }
 
 .container-content {
@@ -100,6 +101,7 @@ button {
 
 .part2 {
   padding: 40px 250px; 
+  padding-bottom: 130px;
 }
 
 .part2 h2 {
@@ -134,7 +136,8 @@ button {
 
 .part3 {
   background-color: #e5e7eb;
-  padding: 100px 340px;
+  padding: 100px 500px;
+  padding-top: 120px;
 }
   
 .quote-container {
@@ -156,7 +159,7 @@ button {
   ----------------*/
 
 .part4 {
-  padding: 30px 300px;
+  padding: 100px 300px;
 }
 
 .sign-up-container {
